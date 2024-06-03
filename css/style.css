@@ -28,18 +28,18 @@ body {
 .header__logo-box {
     position: absolute;
     top: 4rem;
-    left: 4rem;
+    left: 6rem;
 }
 
 .logo {
-    height: 40px;
+    height: 6rem;
     border-radius: 10px;
 }
 
 .header__menu-box {
     position: absolute;
     top: 4rem;
-    right: 4rem;
+    right: 6rem;
     display: inline-flex;
 }
 
@@ -78,8 +78,8 @@ body {
 .header__text-box {
     position: absolute;
     bottom: 0;
-    left: 4rem;
-    right: 4rem;
+    left: 6rem;
+    right: 6rem;
     height: 65%;
     border-radius: 25px 25px 0 0;
     padding: 30px;
@@ -109,7 +109,7 @@ body {
 .tech {
     height: 80vh;
     background-color: #70D5B4;
-    margin: 0 4rem;
+    margin: 0 6rem;
     border-radius: 0 0 25px 25px;
     padding: 0 80px;
 }
