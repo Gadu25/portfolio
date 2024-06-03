@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    /* color: #; */
+    background-color: #1B1B1B;
+}
+
+.header {
+    height: 100vh;
+    
+}
+
+.header__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.logo {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.header__menu-box {
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    display: inline-flex;
+}
+
+
+.menu-item {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+    padding: 10px;
+    width: 120px;
+    font-size: small;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid #70D5B4;
+    color: #70D5B4;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.menu-item:hover{
+    background-color: #70D5B4;
+    color: #fff;
+}
+
+.header__profile-box {
+    position: absolute;
+    top: 15%;
+    left: 10rem;
+    z-index: 1;
+}
+
+.profile {
+    height: 40rem;
+}
+
+.header__text-box {
+    position: absolute;
+    bottom: 0;
+    left: 4rem;
+    right: 4rem;
+    height: 65%;
+    border-radius: 25px 25px 0 0;
+    padding: 30px;
+    background-color: #70D5B4;
+}
+
+.heading-box {
+    margin: 2rem 0 0 45rem;
+}
+
+.heading-primary {
+    color: #1B1B1B;
+    backface-visibility: hidden;
+}
+
+.heading-primary--main {
+    display:block;
+    font-size: 6rem;
+    letter-spacing: .4rem;
+}
+.heading-primary--sub {
+    display:block;
+    font-weight: 400;
+}
+
+
+.tech {
+    height: 80vh;
+    background-color: #70D5B4;
+    margin: 0 4rem;
+    border-radius: 0 0 25px 25px;
+    padding: 0 80px;
+}
+
+.projects {
+    margin-top: 20vh;
+    height: 70vh;
+    background-color: #faf9f6;
+}
+
+.contact {
+    height: 70vh;
+    background-color: #1B1B1B;
+}
+
+
+
+
